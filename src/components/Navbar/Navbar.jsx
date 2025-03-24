@@ -1,12 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-12 py-[20px]">
+    <nav className="flex items-center justify-between px-12 py-[20px] h-16">
       {/* Logo */}
-      <img src={logo} alt="Logo" className="h-16" />
+      <img src={logo} alt="Logo" className="h-8 w-48 cursor-pointer" />
 
       {/* Navigation Links */}
       <ul className="flex items-center list-none gap-[50px] text-xl text-white">
