@@ -12,7 +12,7 @@ const Navbar = () => {
       <ul className="flex items-center list-none gap-[50px] text-xl text-white">
         <li className="cursor-pointer hover:text-gray-300 transition">Home</li>
         <li className="cursor-pointer hover:text-gray-300 transition">About Me</li>
-        <li className="cursor-pointer hover:text-gray-300 transition">Services</li>
+        <li className="cursor-pointer hover:text-gray-300 transition">Social Sites</li>
         <li className="cursor-pointer hover:text-gray-300 transition">Portfolio</li>
         <li className="cursor-pointer hover:text-gray-300 transition">Contact</li>
       </ul>
