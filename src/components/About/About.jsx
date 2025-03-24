@@ -8,7 +8,7 @@ const About = () => {
                 <h1>About me</h1>
                 <img src={theme_pattern} alt="" />
             </div>
-            <div className="about-section">
+            <div className="about-sections">
                 <div className="about-left">
                     <img src={Profile_img} alt="" />
                 </div>
@@ -27,7 +27,18 @@ const About = () => {
             </div>
             <div className="about-achievements">
                 <div className="about-achievement">
-                    
+                    <h1>1+</h1>
+                    <p>Year of Experience</p>
+                </div>
+                <div className='hr'></div>
+                <div className="about-achievement">
+                    <h1>10+</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div className='hr'></div>
+                <div className='about-achievement'>
+                    <h1>Fast Learner</h1>
+                    <p>Top 3% in JEE Mains</p>
                 </div>
             </div>
         </div>
