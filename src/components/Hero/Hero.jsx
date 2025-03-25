@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Action Buttons */}
       <div className="hero-action flex gap-6">
         <button className="hero-btn">Connect With Me</button>
-        <button className="hero-btn">My Resume</button>
+        <button className="hero-btn"><a href="https://drive.google.com/file/d/11R_rcFFe_BfyUwEABhmzri7byqBPDYAL/view?usp=drive_link">My Resume</a></button>
       </div>
     </div>
   );
